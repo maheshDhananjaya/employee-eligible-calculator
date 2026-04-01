@@ -59,7 +59,7 @@ export function EligibilityCalculator() {
           value={yearsWorked}
           onChange={(event) => setYearsWorked(event.target.value)}
           className="rounded-lg border border-slate-300 px-3 py-2 text-slate-900 outline-none focus:border-slate-600"
-          placeholder="Enter total completed years worked"
+          placeholder="Enter total number of years worked"
         />
       </label>
 
