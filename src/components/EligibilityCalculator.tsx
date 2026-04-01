@@ -29,6 +29,10 @@ export function EligibilityCalculator() {
     >
       <label className="flex flex-col gap-1 text-sm font-medium text-slate-700">
         Basic Salary
+        <p className="text-xxl italic text-gray-400">
+          (Salary: Means the last drawn basic wage plus the cost of living
+          allowance or any other similar allowance)
+        </p>
         <input
           name="basicSalary"
           type="number"
@@ -43,6 +47,10 @@ export function EligibilityCalculator() {
 
       <label className="flex flex-col gap-1 text-sm font-medium text-slate-700">
         Total Number of years worked
+        <p className="text-xxl italic text-gray-400">
+          (Completed Year: A 12-month period, but for the first year, 180 days
+          of service is sufficient)
+        </p>
         <input
           name="yearsWorked"
           type="number"
