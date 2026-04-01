@@ -25,10 +25,10 @@ const Header: React.FC = () => {
             <img
               src="/logo.svg"
               alt="Employee Buddy Logo"
-              className="w-48 h-12"
+              className="w-48 h-12 hidden sm:block"
             />
           </Link>
-          <div className="flex space-x-4">
+          <div className="flex space-x-4 overflow-x-auto">
             {navItems.map((item) => (
               <Link
                 key={item.href}
