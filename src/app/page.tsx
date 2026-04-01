@@ -19,7 +19,8 @@ export default function Home() {
       <section className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm sm:p-8">
         <h2 className="text-xl font-semibold text-slate-900">Reference PDF</h2>
         <p className="mt-2 text-sm text-slate-600">
-          Scroll inside the panel to read the document.
+          An act to make special provisions in respect of the termination of the
+          services of workmen in certain employments by their employers
         </p>
         <div className="mt-4 h-[420px] overflow-auto rounded-xl border border-slate-300">
           <iframe
