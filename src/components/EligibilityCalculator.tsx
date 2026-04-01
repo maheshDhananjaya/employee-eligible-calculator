@@ -30,8 +30,8 @@ export function EligibilityCalculator() {
       <label className="flex flex-col gap-1 text-sm font-medium text-slate-700">
         Basic Salary
         <p className="text-xxl italic text-gray-400">
-          (Salary: Means the last drawn basic wage plus the cost of living
-          allowance or any other similar allowance)
+          (Salary: The last drawn basic wage plus the cost of living allowance
+          or any other similar allowance)
         </p>
         <input
           name="basicSalary"
